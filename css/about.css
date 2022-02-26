@@ -1,0 +1,88 @@
+@media (max-width: 575px) {
+  #main_Grid hr {
+    margin: 1em 0;
+    height: 2px;
+    color: rgb(0, 0, 0);
+    display: block;
+  }
+}
+
+@media (min-width: 575px) {
+  #main_Grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+
+    grid-template-areas:
+      "schedule history"
+      "schedule traditions"
+      "schedule mayor";
+    gap: 1em;
+  }
+
+  .item {
+    border: 3px solid #9453A6;
+  }
+
+  #schedule {
+    margin: 1em 0;
+    grid-area: schedule;
+  }
+
+  #history {
+    grid-area: history;
+    margin-top: 1em;
+  }
+
+  #traditions {
+    grid-area: traditions;
+  }
+
+  #mayor {
+    grid-area: mayor;
+    margin-bottom: 1em;
+  }
+
+  #main_Grid hr {
+    display: none;
+  }
+}
+
+#schedule {
+  margin: 1em 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.day1 thead tr {
+  background-color: #219A30;
+  width: 100%;
+}
+
+table thead {
+  font-family: 'Henny Penny', sans-serif;
+  background-color: #E6C42D;
+}
+
+table tbody {
+  font-family: 'Roboto', sans-serif;
+}
+
+.item h2,
+.item h3 {
+  font-family: 'Pattaya', sans-serif;
+  color: #000;
+  /* font-size: 2em; */
+}
+
+.item p {
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}

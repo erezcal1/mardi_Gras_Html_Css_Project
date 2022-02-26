@@ -1,0 +1,32 @@
+.question {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F2E085;
+}
+
+#questions h2 {
+  margin: 0.6em;
+}
+
+#questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#questions button {
+  margin-top: 1em;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#grade {
+  font-family: 'Henny Penny', sans-serif;
+  font-size: 1.5em;
+  margin: 1em auto;
+}
+
+.question label {
+  margin: 5px;
+}
