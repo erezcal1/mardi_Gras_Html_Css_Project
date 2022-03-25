@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 @media (max-width: 575px) {
-
   .weather,
   .logo_And_Things :nth-child(3) {
     display: none;
@@ -9,44 +8,45 @@
 }
 
 body {
-  font-family: 'Pattaya';
-  font-family: 'Henny Penny';
-  font-family: 'Roboto', sans-serif;
-  background-image: linear-gradient(to bottom right, #9453A6, #8cBF3F, #f2cc0f, #f2f2f2, #9453A6);
+  font-family: "Pattaya";
+  font-family: "Henny Penny";
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(
+    to bottom right,
+    #9453a6,
+    #8cbf3f,
+    #f2cc0f,
+    #f2f2f2,
+    #9453a6
+  );
 }
 
 h1 {
-  font-family: 'Pattaya',
-    sans-serif;
+  font-family: "Pattaya", sans-serif;
 }
 
 h2 {
-  font-family: 'Henny Penny',
-    sans-serif;
+  font-family: "Henny Penny", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 h3 {
-  font-family: 'Henny Penny',
-    sans-serif;
+  font-family: "Henny Penny", sans-serif;
 }
 
 h4 {
-  font-family: 'Henny Penny',
-    sans-serif;
+  font-family: "Henny Penny", sans-serif;
 }
 
 h5 {
-  font-family: 'Pattaya',
-    sans-serif;
+  font-family: "Pattaya", sans-serif;
 }
 
 p,
 a {
-  font-family: 'Roboto',
-    sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .logo_And_Things {
@@ -61,7 +61,7 @@ a {
 
 .navbar a {
   font-weight: bold;
-  font-family: 'Henny Penny';
+  font-family: "Henny Penny";
 }
 
 .main_Logo {
@@ -78,7 +78,7 @@ a {
 }
 
 .navbar {
-  background-image: linear-gradient(to right, #917B80, #8cBF3F, #f2cc0f);
+  background-image: linear-gradient(to right, #917b80, #8cbf3f, #f2cc0f);
 
   /* background-image: linear-gradient(to right, #9453A6, #8cBF3F, #f2cc0f); */
 }
@@ -93,7 +93,6 @@ a {
   width: 100%;
   height: 2px;
 }
-
 
 .online {
   padding-top: 1em;
@@ -116,26 +115,26 @@ a {
 }
 
 .facebook {
-  background-image: url('../images/main_Images/FaceBook.png');
+  background-image: url("../images/main_Images/FaceBook.png");
   background-size: cover;
 }
 
 .twitter {
-  background-image: url('../images/main_Images/Twitter.png');
+  background-image: url("../images/main_Images/Twitter.png");
   background-size: 110%;
 }
 
 .instagram {
-  background-image: url('/images/main_Images/Instagram.png');
+  background-image: url("../images/main_Images/Instagram.png");
   background-size: cover;
 }
 
 .youtube {
-  background-image: url('/images/main_Images/youTube.jpg');
+  background-image: url("../images/main_Images/youTube.jpg");
   background-size: cover;
 }
 
 .trip_Advisor {
-  background-image: url('/images/main_Images/tripAdvisor.png');
+  background-image: url("../images/main_Images/tripAdvisor.png");
   background-size: cover;
 }

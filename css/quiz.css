@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: #F2E085;
+  background-color: #f2e085;
 }
 
 #questions h2 {
@@ -22,7 +22,7 @@
 }
 
 #grade {
-  font-family: 'Henny Penny', sans-serif;
+  font-family: "Henny Penny", sans-serif;
   font-size: 1.5em;
   margin: 1em auto;
 }
